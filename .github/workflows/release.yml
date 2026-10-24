@@ -70,6 +70,21 @@ jobs:
           mv ALF_picklescan ALF_picklescan-linux-x86_64
           sha256sum ALF_picklescan-linux-x86_64 > ALF_picklescan-linux-x86_64.sha256
 
+      # Abre a interface num ecrã virtual. Se o executável arrancar e continuar a
+      # correr, o timeout mata-o e devolve 124. Qualquer outro código é falha.
+      - name: Testar o arranque do executável (xvfb)
+        run: |
+          sudo apt-get install -y xvfb
+          set +e
+          xvfb-run -a timeout 15 ./dist/ALF_picklescan-linux-x86_64
+          code=$?
+          echo "código de saída: $code"
+          if [ "$code" -ne 124 ]; then
+            echo "O executável não ficou a correr. Esperado 124 (timeout)."
+            exit 1
+          fi
+          echo "GUI arrancou e manteve-se estável durante 15 s."
+
       - name: Guardar como artefacto
         uses: actions/upload-artifact@v4
         with:
