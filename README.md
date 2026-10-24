@@ -124,7 +124,7 @@ Only what is needed to use, build and improve the tool is published here:
 - **model files** of any kind, and any test sample that could be used to attack someone;
 - internal planning documents about the launch.
 
-To build from source, run `build_exe.bat` on Windows or `./build_linux.sh` on Linux. Both need Python 3.10 or newer and produce a single-file executable that already includes picklescan.
+To build from source, run `build_exe.bat` on Windows or `./build_linux.sh` on Linux. Both need Python 3.11 or newer and produce a single-file executable that already includes picklescan.
 
 ## Roadmap
 

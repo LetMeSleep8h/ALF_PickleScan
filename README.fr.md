@@ -124,7 +124,7 @@ Seul le nécessaire pour utiliser, compiler et améliorer l'outil est publié ic
 - les **fichiers de modèles** de toute sorte, et tout échantillon de test pouvant servir à attaquer quelqu'un ;
 - les documents internes de préparation du lancement.
 
-Pour compiler depuis les sources, lancez `build_exe.bat` sous Windows ou `./build_linux.sh` sous Linux. Les deux nécessitent Python 3.10 ou plus récent et produisent un exécutable unique qui inclut déjà picklescan.
+Pour compiler depuis les sources, lancez `build_exe.bat` sous Windows ou `./build_linux.sh` sous Linux. Les deux nécessitent Python 3.11 ou plus récent et produisent un exécutable unique qui inclut déjà picklescan.
 
 ## Feuille de route
 

@@ -124,7 +124,7 @@ python ALF_picklescan.py model.gguf --sha256 <hash>
 - 任何**模型文件**，以及任何可能被用来攻击他人的测试样本；
 - 关于发布计划的内部文档。
 
-要从源代码构建，请在 Windows 上运行 `build_exe.bat`，在 Linux 上运行 `./build_linux.sh`。两者都需要 Python 3.10 或更新版本，并生成已包含 picklescan 的单文件可执行程序。
+要从源代码构建，请在 Windows 上运行 `build_exe.bat`，在 Linux 上运行 `./build_linux.sh`。两者都需要 Python 3.11 或更新版本，并生成已包含 picklescan 的单文件可执行程序。
 
 ## 路线图
 

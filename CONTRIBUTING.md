@@ -19,7 +19,7 @@ pip install picklescan==1.0.5
 python ALF_picklescan_gui.py
 ```
 
-No Linux, a interface precisa de `python3-tk` (`sudo apt install python3-tk`). Precisa de Python 3.10 ou mais recente para compilar os executáveis.
+No Linux, a interface precisa de `python3-tk` (`sudo apt install python3-tk`). Precisa de Python 3.11 ou mais recente para compilar os executáveis.
 
 ## Correr os testes
 

@@ -56,13 +56,20 @@ jobs:
       - name: Instalar Python e tkinter
         run: sudo apt-get update && sudo apt-get install -y python3-tk
 
+      # Python 3.11 do setup-python (o picklescan 1.0.5 exige >= 3.11; o python3
+      # do Ubuntu 22.04 é 3.10), mantendo a glibc 2.35 do sistema.
+      - name: Instalar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Instalar dependências
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install picklescan==1.0.5 pyinstaller
+          python -m pip install --upgrade pip
+          python -m pip install picklescan==1.0.5 pyinstaller
 
       - name: Gerar o executável Linux
-        run: python3 -m PyInstaller --onefile --name ALF_picklescan --clean --collect-all picklescan ALF_picklescan_gui.py
+        run: python -m PyInstaller --onefile --name ALF_picklescan --clean --collect-all picklescan ALF_picklescan_gui.py
 
       - name: Renomear e calcular o SHA-256
         run: |

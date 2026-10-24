@@ -124,7 +124,7 @@ Aqui só está publicado o necessário para usar, compilar e melhorar a ferramen
 - **ficheiros de modelos** de qualquer tipo, e qualquer amostra de teste que possa ser usada para atacar alguém;
 - documentos internos de planeamento do lançamento.
 
-Para compilar a partir do código, corre `build_exe.bat` no Windows ou `./build_linux.sh` no Linux. Ambos precisam de Python 3.10 ou mais recente e produzem um executável único que já inclui o picklescan.
+Para compilar a partir do código, corre `build_exe.bat` no Windows ou `./build_linux.sh` no Linux. Ambos precisam de Python 3.11 ou mais recente e produzem um executável único que já inclui o picklescan.
 
 ## Roadmap
 

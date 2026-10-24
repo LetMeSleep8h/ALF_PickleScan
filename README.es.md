@@ -124,7 +124,7 @@ Aquí solo se publica lo necesario para usar, compilar y mejorar la herramienta:
 - **archivos de modelos** de cualquier tipo, y cualquier muestra de prueba que pudiera usarse para atacar a alguien;
 - documentos internos de planificación del lanzamiento.
 
-Para compilar desde el código, ejecuta `build_exe.bat` en Windows o `./build_linux.sh` en Linux. Ambos necesitan Python 3.10 o posterior y producen un ejecutable único que ya incluye picklescan.
+Para compilar desde el código, ejecuta `build_exe.bat` en Windows o `./build_linux.sh` en Linux. Ambos necesitan Python 3.11 o posterior y producen un ejecutable único que ya incluye picklescan.
 
 ## Hoja de ruta
 
