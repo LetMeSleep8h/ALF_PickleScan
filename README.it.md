@@ -124,7 +124,7 @@ Qui è pubblicato solo il necessario per usare, compilare e migliorare lo strume
 - **file di modelli** di qualsiasi tipo, e qualsiasi campione di test che potrebbe essere usato per attaccare qualcuno;
 - i documenti interni di pianificazione del lancio.
 
-Per compilare dai sorgenti, esegui `build_exe.bat` su Windows o `./build_linux.sh` su Linux. Entrambi richiedono Python 3.11 o successivo e producono un eseguibile unico che include già picklescan.
+Per compilare dai sorgenti, esegui `build_exe.bat` su Windows o `./build_linux.sh` su Linux. Entrambi richiedono Python 3.10 o successivo e producono un eseguibile unico che include già picklescan.
 
 ## Roadmap
 
