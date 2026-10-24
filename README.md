@@ -32,7 +32,7 @@ The analysis is read-only. The tool never loads, imports or executes the model.
 
 ## Download
 
-Go to the [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) page and pick the file for your system. Windows and Linux builds are published separately.
+Go to the [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan/releases) page and pick the file for your system. Windows and Linux builds are published separately.
 
 | System | File | Requirements |
 |---|---|---|
@@ -119,7 +119,7 @@ Only what is needed to use, build and improve the tool is published here:
 
 **Not** in the repository, on purpose:
 
-- the **executables** — they live in [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases), so that a new clone stays small and history is not bloated with binaries;
+- the **executables** — they live in [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases), so that a new clone stays small and history is not bloated with binaries;
 - build output (`build/`, `dist/`, `*.spec`), generated reports (`ALF_relatorios/`) and the local `ALF_whitelist.txt`;
 - **model files** of any kind, and any test sample that could be used to attack someone;
 - internal planning documents about the launch.
@@ -128,7 +128,7 @@ To build from source, run `build_exe.bat` on Windows or `./build_linux.sh` on Li
 
 ## Roadmap
 
-Public plan. Items may change; progress is tracked in [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) and [Discussions](https://github.com/antonioferreira2/ALF_PickleScan_v1/discussions).
+Public plan. Items may change; progress is tracked in [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) and [Discussions](https://github.com/antonioferreira2/ALF_PickleScan/discussions).
 
 1. **v2.1: multilingual interface and Linux build.** ✅ English, Portuguese, French, Spanish, Italian and Chinese in the app; Windows and Linux builds; picklescan included in the executables.
 2. **v2.2: translated verification messages.** Check names and details in all six languages, instead of Portuguese only.

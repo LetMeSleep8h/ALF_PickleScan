@@ -32,7 +32,7 @@
 
 ## 下载
 
-打开 [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) 页面，选择适合你系统的文件。Windows 和 Linux 版本分别发布。
+打开 [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan/releases) 页面，选择适合你系统的文件。Windows 和 Linux 版本分别发布。
 
 | 系统 | 文件 | 要求 |
 |---|---|---|
@@ -119,7 +119,7 @@ python ALF_picklescan.py model.gguf --sha256 <hash>
 
 **有意不**放在仓库中的内容：
 
-- **可执行文件** — 放在 [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) 中，这样新的克隆保持很小，提交历史也不会被二进制文件占满；
+- **可执行文件** — 放在 [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases) 中，这样新的克隆保持很小，提交历史也不会被二进制文件占满；
 - 构建产物（`build/`、`dist/`、`*.spec`）、生成的报告（`ALF_relatorios/`）和本地的 `ALF_whitelist.txt`；
 - 任何**模型文件**，以及任何可能被用来攻击他人的测试样本；
 - 关于发布计划的内部文档。
@@ -128,7 +128,7 @@ python ALF_picklescan.py model.gguf --sha256 <hash>
 
 ## 路线图
 
-公开计划，可能调整；进展记录在 [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) 和 [Discussions](https://github.com/antonioferreira2/ALF_PickleScan_v1/discussions) 中。
+公开计划，可能调整；进展记录在 [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) 和 [Discussions](https://github.com/antonioferreira2/ALF_PickleScan/discussions) 中。
 
 1. **v2.1：多语言界面和 Linux 版本。** ✅ 应用支持英语、葡萄牙语、法语、西班牙语、意大利语和中文；提供 Windows 和 Linux 版本；可执行文件中已包含 picklescan。
 2. **v2.2：翻译校验消息。** 检查项名称和细节提供六种语言，而不仅是葡萄牙语。

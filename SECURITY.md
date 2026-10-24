@@ -13,11 +13,11 @@ Inclui, se possível:
 
 ## Falsos positivos e falsos negativos
 
-Um modelo legítimo marcado como perigoso, ou um modelo malicioso que passou sem alertas, não é necessariamente uma vulnerabilidade, mas queremos saber. Usa as [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) para isto, indicando o modelo (nome e link público) e o detalhe da verificação. Não envies pesos de modelos privados.
+Um modelo legítimo marcado como perigoso, ou um modelo malicioso que passou sem alertas, não é necessariamente uma vulnerabilidade, mas queremos saber. Usa as [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) para isto, indicando o modelo (nome e link público) e o detalhe da verificação. Não envies pesos de modelos privados.
 
 ## Versões suportadas
 
-Apenas a versão mais recente publicada em [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) recebe correções.
+Apenas a versão mais recente publicada em [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases) recebe correções.
 
 ## Verificar as releases
 

@@ -11,8 +11,8 @@ Obrigado por querer ajudar. Este projeto existe para tornar a verificação de m
 ## Preparar o ambiente
 
 ```
-git clone https://github.com/antonioferreira2/ALF_PickleScan_v1.git
-cd ALF_PickleScan_v1
+git clone https://github.com/antonioferreira2/ALF_PickleScan.git
+cd ALF_PickleScan
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install picklescan==1.0.5

@@ -32,7 +32,7 @@ L'analisi è di sola lettura. Lo strumento non carica, importa né esegue mai il
 
 ## Download
 
-Vai alla pagina [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) e scegli il file per il tuo sistema. Le versioni Windows e Linux sono pubblicate separatamente.
+Vai alla pagina [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan/releases) e scegli il file per il tuo sistema. Le versioni Windows e Linux sono pubblicate separatamente.
 
 | Sistema | File | Requisiti |
 |---|---|---|
@@ -119,7 +119,7 @@ Qui è pubblicato solo il necessario per usare, compilare e migliorare lo strume
 
 **Non** sono nel repository, di proposito:
 
-- gli **eseguibili** — sono nelle [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases), così un clone nuovo resta leggero e la cronologia non si riempie di binari;
+- gli **eseguibili** — sono nelle [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases), così un clone nuovo resta leggero e la cronologia non si riempie di binari;
 - i risultati di compilazione (`build/`, `dist/`, `*.spec`), i rapporti generati (`ALF_relatorios/`) e il file locale `ALF_whitelist.txt`;
 - **file di modelli** di qualsiasi tipo, e qualsiasi campione di test che potrebbe essere usato per attaccare qualcuno;
 - i documenti interni di pianificazione del lancio.
@@ -128,7 +128,7 @@ Per compilare dai sorgenti, esegui `build_exe.bat` su Windows o `./build_linux.s
 
 ## Roadmap
 
-Piano pubblico. Gli elementi possono cambiare; i progressi sono nelle [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) e nelle [Discussions](https://github.com/antonioferreira2/ALF_PickleScan_v1/discussions).
+Piano pubblico. Gli elementi possono cambiare; i progressi sono nelle [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) e nelle [Discussions](https://github.com/antonioferreira2/ALF_PickleScan/discussions).
 
 1. **v2.1: interfaccia multilingue e build Linux.** ✅ Inglese, portoghese, francese, spagnolo, italiano e cinese nell'app; build per Windows e Linux; picklescan incluso negli eseguibili.
 2. **v2.2: messaggi di verifica tradotti.** Nomi e dettagli dei controlli in tutte e sei le lingue, invece del solo portoghese.

@@ -32,7 +32,7 @@ A análise é só de leitura. A ferramenta nunca carrega, importa nem executa o 
 
 ## Descarregar
 
-Vai à página de [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) e escolhe o ficheiro para o teu sistema. As versões de Windows e Linux são publicadas em separado.
+Vai à página de [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan/releases) e escolhe o ficheiro para o teu sistema. As versões de Windows e Linux são publicadas em separado.
 
 | Sistema | Ficheiro | Requisitos |
 |---|---|---|
@@ -119,7 +119,7 @@ Aqui só está publicado o necessário para usar, compilar e melhorar a ferramen
 
 **Não** estão no repositório, de propósito:
 
-- os **executáveis** — ficam nas [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases), para um clone novo continuar pequeno e o histórico não encher de binários;
+- os **executáveis** — ficam nas [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases), para um clone novo continuar pequeno e o histórico não encher de binários;
 - resultados de build (`build/`, `dist/`, `*.spec`), relatórios gerados (`ALF_relatorios/`) e o `ALF_whitelist.txt` local;
 - **ficheiros de modelos** de qualquer tipo, e qualquer amostra de teste que possa ser usada para atacar alguém;
 - documentos internos de planeamento do lançamento.
@@ -128,7 +128,7 @@ Para compilar a partir do código, corre `build_exe.bat` no Windows ou `./build_
 
 ## Roadmap
 
-Plano público. Os itens podem mudar; o progresso está nas [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) e nas [Discussions](https://github.com/antonioferreira2/ALF_PickleScan_v1/discussions).
+Plano público. Os itens podem mudar; o progresso está nas [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) e nas [Discussions](https://github.com/antonioferreira2/ALF_PickleScan/discussions).
 
 1. **v2.1: interface multilingue e build Linux.** ✅ Inglês, português, francês, espanhol, italiano e chinês na aplicação; builds de Windows e Linux; picklescan incluído nos executáveis.
 2. **v2.2: mensagens de verificação traduzidas.** Nomes e detalhes das verificações nos seis idiomas, em vez de apenas português.

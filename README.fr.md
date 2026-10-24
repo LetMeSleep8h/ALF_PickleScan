@@ -32,7 +32,7 @@ L'analyse est en lecture seule. L'outil ne charge, n'importe et n'exécute jamai
 
 ## Téléchargement
 
-Allez sur la page [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases) et choisissez le fichier correspondant à votre système. Les versions Windows et Linux sont publiées séparément.
+Allez sur la page [**Releases**](https://github.com/antonioferreira2/ALF_PickleScan/releases) et choisissez le fichier correspondant à votre système. Les versions Windows et Linux sont publiées séparément.
 
 | Système | Fichier | Configuration requise |
 |---|---|---|
@@ -119,7 +119,7 @@ Seul le nécessaire pour utiliser, compiler et améliorer l'outil est publié ic
 
 **Ne sont pas** dans le dépôt, volontairement :
 
-- les **exécutables** — ils sont dans les [Releases](https://github.com/antonioferreira2/ALF_PickleScan_v1/releases), pour qu'un nouveau clone reste léger et que l'historique ne se remplisse pas de binaires ;
+- les **exécutables** — ils sont dans les [Releases](https://github.com/antonioferreira2/ALF_PickleScan/releases), pour qu'un nouveau clone reste léger et que l'historique ne se remplisse pas de binaires ;
 - les résultats de compilation (`build/`, `dist/`, `*.spec`), les rapports générés (`ALF_relatorios/`) et le fichier local `ALF_whitelist.txt` ;
 - les **fichiers de modèles** de toute sorte, et tout échantillon de test pouvant servir à attaquer quelqu'un ;
 - les documents internes de préparation du lancement.
@@ -128,7 +128,7 @@ Pour compiler depuis les sources, lancez `build_exe.bat` sous Windows ou `./buil
 
 ## Feuille de route
 
-Plan public. Les éléments peuvent changer ; l'avancement est suivi dans les [Issues](https://github.com/antonioferreira2/ALF_PickleScan_v1/issues) et les [Discussions](https://github.com/antonioferreira2/ALF_PickleScan_v1/discussions).
+Plan public. Les éléments peuvent changer ; l'avancement est suivi dans les [Issues](https://github.com/antonioferreira2/ALF_PickleScan/issues) et les [Discussions](https://github.com/antonioferreira2/ALF_PickleScan/discussions).
 
 1. **v2.1 : interface multilingue et version Linux.** ✅ Anglais, portugais, français, espagnol, italien et chinois dans l'application ; versions Windows et Linux ; picklescan inclus dans les exécutables.
 2. **v2.2 : messages de vérification traduits.** Noms et détails des vérifications dans les six langues, au lieu du portugais uniquement.
